@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.png" alt="IoT Labs" width="100%"></p>
+
 # Bennett IoT Labs
 
 Lab work for CSET480 IoT Analytics at Bennett University, 5th semester, odd 2026.
@@ -12,14 +14,26 @@ Lab work for CSET480 IoT Analytics at Bennett University, 5th semester, odd 2026
 
 `data/iot_timeseries_14day.csv` is the shared 14-day dataset.
 
+## Setup
+
+```
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Labs 2, 3 and 5 are notebooks with their outputs saved, so you can read them on GitHub without running anything.
+
 ## Running lab 4
 
 Start InfluxDB on `localhost:8086`, create an org called `iot_analytics_lab`, then:
 
 ```
-pip install influxdb-client pandas
 export INFLUX_TOKEN=<your token>
 python lab4/ingest.py
 ```
 
 The ESP32 sketch in `lab1/` ships with placeholder WiFi credentials. Fill them in before flashing.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
