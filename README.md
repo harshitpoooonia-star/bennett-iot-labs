@@ -2,6 +2,8 @@
 
 # Bennett IoT Labs
 
+[![ci](https://github.com/harshitpoooonia-star/bennett-iot-labs/actions/workflows/ci.yml/badge.svg)](https://github.com/harshitpoooonia-star/bennett-iot-labs/actions/workflows/ci.yml)
+
 Lab work for CSET480 IoT Analytics at Bennett University, 5th semester, odd 2026.
 
 | Lab | Topic | Files |
